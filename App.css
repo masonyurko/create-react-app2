@@ -1,0 +1,68 @@
+button {
+  cursor:pointer;
+  background-color:#004C54;
+  color:white;
+  border-radius:10px;
+  padding:6px;
+  font-size:25px;
+  font-weight:bold;
+  text-align:center;
+  width:14%;
+  
+}
+
+.outline {
+ justify-content:center;
+ display:flex;
+
+}
+
+.card{
+ text-align: center;
+ border: solid #004C54 6px;
+ max-width:400px;
+ border-radius: 20px;
+ margin-bottom: 10px;
+ font-size:20px;
+ background-color:#000000;
+ padding:20px;
+ font-family: "Times New Roman", Times, serif;
+}
+
+.details{
+  color:white;
+  font-size:24px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2{
+  color:white;
+}
+
+img{
+  width: 350px;
+}
+
+@media screen and (min-width:501px) and (max-width:800px) {
+
+}
+@media screen and (max-width:500px) {
+  .card{
+    font-size: 5vw
+  }
+}
+.buttons {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+  font-family: "Times New Roman", Times, serif;
+}
+
+button:hover{
+  background-color:#BBC4C9;
+}
+
+button:focus{
+ background-color:black;
+}
